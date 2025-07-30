@@ -13,6 +13,7 @@ import PostDetails from './pages/Blog/PostDetails';
 import ContactLayout from './pages/Contact/ContactLayout';
 import Contact from './pages/Contact/Contact';
 import ContactDetails from './pages/Contact/ContactDetails';
+import Parent from './propsdrill/Parent';
 
 const App = () => {
   return (
@@ -41,6 +42,9 @@ const App = () => {
           </Route>
         </Route>
       </Routes>
+
+      <h1>Props Drilling Demo</h1>
+      <Parent/>
     </>
   );
 };
