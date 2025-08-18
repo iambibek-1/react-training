@@ -13,9 +13,12 @@ import PostDetails from './pages/Blog/PostDetails';
 import ContactLayout from './pages/Contact/ContactLayout';
 import Contact from './pages/Contact/Contact';
 import ContactDetails from './pages/Contact/ContactDetails';
-import Parent from './propsdrill/Parent';
+// import Parent from './propsdrill/Parent';
 import UserCard from './components/reusableComponent/UserCard';
 import SmartComponent from './smartComponent/SmartComponent';
+import Parent from './components/liftingstate/Parent';
+import ParentWithContext from './components/contextAPI/ParentWithContext';
+
 
 const App = () => {
   return (
@@ -46,7 +49,7 @@ const App = () => {
       </Routes>
 
       <h1>Props Drilling Demo</h1>
-      <Parent/>
+      {/* <Parent/> */}
 
       <UserCard name="Alice" age={25} email="alice@example.com" />
       <UserCard name="Bob" age={30} email="bob@example.com" />
@@ -54,7 +57,13 @@ const App = () => {
       <UserCard name="Bob" age={30} email="bob@example.com" />
       <UserCard name="Bob" age={30} email="bob@example.com" />
 
-      <SmartComponent/>
+      {/* <SmartComponent/> */}
+
+      <Parent/>
+      <ParentWithContext/>
+
+
+
 
     </>
   );
