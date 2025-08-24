@@ -20,8 +20,8 @@ import Parent from "./components/liftingstate/Parent";
 import ParentWithContext from "./components/contextAPI/ParentWithContext";
 import UserList from "./components/UserList";
 import LoginFormHook from "./components/reactformhook/LoginFormHook";
-
-
+import FetchUsers from "./fetchApi/FetchUsers";
+import AxiosPosts from "./fetchApi/AxiosPosts";
 
 const App = () => {
   return (
@@ -64,12 +64,11 @@ const App = () => {
 
       <Parent />
       <ParentWithContext />
-
       <UserList />
+      <LoginFormHook />
 
-<LoginFormHook/>
-
-
+      <FetchUsers />
+      <AxiosPosts/>
     </>
   );
 };
