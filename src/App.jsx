@@ -22,6 +22,7 @@ import UserList from "./components/UserList";
 import LoginFormHook from "./components/reactformhook/LoginFormHook";
 import FetchUsers from "./fetchApi/FetchUsers";
 import AxiosPosts from "./fetchApi/AxiosPosts";
+import ToDos from "./fetchApi/ToDos";
 
 const App = () => {
   return (
@@ -54,21 +55,23 @@ const App = () => {
       <h1>Props Drilling Demo</h1>
       {/* <Parent/> */}
 
-      <UserCard name="Alice" age={25} email="alice@example.com" />
+      {/* <UserCard name="Alice" age={25} email="alice@example.com" />
       <UserCard name="Bob" age={30} email="bob@example.com" />
       <UserCard name="Bob" age={30} email="bob@example.com" />
       <UserCard name="Bob" age={30} email="bob@example.com" />
-      <UserCard name="Bob" age={30} email="bob@example.com" />
+      <UserCard name="Bob" age={30} email="bob@example.com" /> */}
 
       {/* <SmartComponent/> */}
 
-      <Parent />
+      {/* <Parent />
       <ParentWithContext />
       <UserList />
-      <LoginFormHook />
+      <LoginFormHook /> */}
 
-      <FetchUsers />
-      <AxiosPosts/>
+      {/* <FetchUsers /> */}
+      {/* <AxiosPosts /> */}
+
+      <ToDos />
     </>
   );
 };
