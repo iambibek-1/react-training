@@ -23,6 +23,8 @@ import LoginFormHook from "./components/reactformhook/LoginFormHook";
 import FetchUsers from "./fetchApi/FetchUsers";
 import AxiosPosts from "./fetchApi/AxiosPosts";
 import ToDos from "./fetchApi/ToDos";
+import ReactMemoExample from "./optimizations/ReactMemoExample";
+import UseMemoExample from "./optimizations/UseMemoExample";
 
 const App = () => {
   return (
@@ -72,6 +74,10 @@ const App = () => {
       {/* <AxiosPosts /> */}
 
       <ToDos />
+
+      <ReactMemoExample />
+
+      <UseMemoExample />
     </>
   );
 };
