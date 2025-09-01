@@ -25,6 +25,7 @@ import AxiosPosts from "./fetchApi/AxiosPosts";
 import ToDos from "./fetchApi/ToDos";
 import ReactMemoExample from "./optimizations/ReactMemoExample";
 import UseMemoExample from "./optimizations/UseMemoExample";
+import UseCallbackExample from "./optimizations/UseCallbackExample";
 
 const App = () => {
   return (
@@ -75,9 +76,11 @@ const App = () => {
 
       <ToDos />
 
-      <ReactMemoExample />
+      {/* <ReactMemoExample /> */}
 
-      <UseMemoExample />
+      {/* <UseMemoExample /> */}
+
+      <UseCallbackExample />
     </>
   );
 };
