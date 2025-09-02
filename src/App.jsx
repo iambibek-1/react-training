@@ -26,6 +26,7 @@ import ToDos from "./fetchApi/ToDos";
 import ReactMemoExample from "./optimizations/ReactMemoExample";
 import UseMemoExample from "./optimizations/UseMemoExample";
 import UseCallbackExample from "./optimizations/UseCallbackExample";
+import LazyLoadingExample from "./optimizations/LazyLoadingExample";
 
 const App = () => {
   return (
@@ -81,6 +82,8 @@ const App = () => {
       {/* <UseMemoExample /> */}
 
       <UseCallbackExample />
+
+      <LazyLoadingExample />
     </>
   );
 };
